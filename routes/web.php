@@ -35,5 +35,7 @@ Route::middleware(['auth', AdminMiddleware::class])->group(function(){
     Route::get('/admin/categories/edit/{id}', [AdminController::class, 'category_edit'])->name('admin.category.edit');
     Route::put('/admin/categories/update', [AdminController::class, 'category_update'])->name('admin.category.update');
     Route::delete('/admin/categories/{id}/delete', [AdminController::class, 'category_delete'])->name('admin.category.delete');
+    // rutenya produk
+    Route::get('/admin/products', [AdminController::class, 'products'])->name('admin.products');
     
 });

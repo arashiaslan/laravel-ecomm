@@ -284,7 +284,7 @@
     </div>
 
     <nav
-      class="header-mobile__navigation navigation d-flex flex-column w-100 position-absolute top-100 bg-body overflow-auto">
+      class="header-mobile__navigation navigation d-flex flex-column w-100 position-a  bsolute top-100 bg-body overflow-auto">
       <div class="container">
         <form action="#" method="GET" class="search-field position-relative mt-4 mb-3">
           <div class="position-relative">
