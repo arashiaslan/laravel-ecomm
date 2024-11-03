@@ -454,7 +454,7 @@
                     <div class="main-content">
                         @yield('content')
                         <div class="bottom-page">
-                            <div class="body-text">Copyright © 2024 SurfsideMedia</div>
+                            <div class="body-text">Recode for learn by @arashiaslan | Copyright © 2024 SurfsideMedia</div>
                         </div>
                     </div>
 
